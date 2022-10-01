@@ -1,0 +1,128 @@
+.navbar {
+  width: 1437px;
+  height: 58px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-brand {
+  width: 187px;
+  height: 58px;
+  margin-left: 38px;
+  gap: 10px;
+}
+
+.navbar-brand h3 {
+  margin: 0px;
+  width: 116px;
+  height: 32px;
+  margin-top: 13px;
+  margin-left: 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.navbar-collapse {
+  width: 1155px;
+  height: 58px;
+  /* margin-left: calc(50% - 1155px/2 + 124px); */
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-collapse-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  
+  /* position: absolute; */
+  width: 361px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 0px;
+  /* margin-top: calc(50% - 25px/2); */
+}
+
+.Home {
+  text-decoration: none;
+  width: 43px;
+  height: 24px;
+}
+
+.Shop {
+  text-decoration: none;
+  padding: 0px;
+  gap: 10px;
+
+  width: 63px;
+  height: 25px;
+}
+
+.About {
+  text-decoration: none;
+  width: 45px;
+  height: 24px;
+}
+
+.Blog {
+  text-decoration: none;
+  width: 33px;
+  height: 24px;
+}
+
+.Contact {
+  text-decoration: none;
+  width: 58px;
+  height: 24px;
+}
+.Pages {
+  text-decoration: none;
+  width: 44px;
+  height: 24px;
+}
+.navbar-collapse-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  align-items: center;
+
+  /* position: absolute; */
+  width: 324px;
+  height: 54px;
+  margin-top: 15px;
+  margin-left: 500px;
+  /* margin-top: calc(50% - 54px/2); */
+}
+.login {
+  text-decoration: none;
+  width: 166px;
+  height: 54px;
+}
+.search {
+  text-decoration: none;
+
+  width: 46px;
+  height: 46px;
+}
+.shop {
+  text-decoration: none;
+  width: 56px;
+  height: 46px;
+}
+.heart {
+  text-decoration: none;
+  width: 56px;
+  height: 46px;
+}
